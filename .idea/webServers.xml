@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b579d467-b3c9-449f-957d-97d3e43763bb" name="localhost" url="http://localhost">
+        <fileTransfer mountedRoot="/var/www/html" accessType="MOUNT" />
+      </webServer>
+      <webServer id="d4cdf9fb-ebd3-4cdb-8ac9-bc116f0c1a23" name="ftp.xevim.com" url="http://ftp.xevim.com">
+        <fileTransfer host="ftp.xevim.com" port="21" accessType="FTPS" password="dfe8df9edf9bdf9fdf9edf9adf9adf9adf9adfdc" username="dosvis">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
